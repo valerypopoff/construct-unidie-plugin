@@ -1,0 +1,70 @@
+{
+"general":
+{
+	"conditions":
+	[
+		{  
+			"id": "compare-result",
+			"c2id": 0,
+			"scriptName": "CompareResult",
+			"expressionName": "CompareResult",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "comparison-options",
+					"type": "cmp"
+					, "items": 
+					[
+					]
+				},
+				{ 
+					"id": "result",
+					"type": "number"
+					, "items": 
+					[
+					]
+				}
+			]				
+		}
+	],
+	"actions":
+	[
+		{  
+			"id": "roll-die",
+			"c2id": 0,
+			"scriptName": "RollDie",
+			"expressionName": "RollDie",
+			"highlight": false,
+
+			"params": 
+			[
+				{ 
+					"id": "chances",
+					"type": "variadic"
+					, "initialValue": "50" 
+					, "items": 
+					[
+					]
+				}
+			]				
+		}
+	],
+	"expressions":
+	[
+		{  
+			"id": "get-result",
+			"scriptName": "Result",
+			"expressionName": "Result",
+			"highlight": true,
+			"returnType": "any",
+
+			"params": 
+			[
+			]				
+		}
+	]
+}
+
+}

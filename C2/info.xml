@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c2addon>
+	<!-- One of: plugin, behavior, effect -->
+	<type>plugin</type>
+	
+	<name>Valerypopoff Universal Die</name>	
+	<version>0.1.0</version>
+	<author>Valera Popov</author>
+	<website>http://valerypopoff.ru/</website>
+	<documentation>http://valerypopoff.ru/construct/unidie-plugin/</documentation>
+	<description>Roll n-sided die with custom chances for each side.</description>
+</c2addon>

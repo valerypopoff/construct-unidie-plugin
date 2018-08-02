@@ -1,0 +1,90 @@
+{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for Valerypopoff Universal Die.",
+	"text": 
+	{
+		"plugins": 
+		{
+			"valerypopoffuniversaldie": 
+			{
+				"name": "Valerypopoff Universal Die",
+				"description": "Roll n-sided die with custom chances for each side.",
+				"help-url": "http://valerypopoff.ru/construct/unidie-plugin/",
+				"properties": 
+				{
+				},
+				
+				"aceCategories": 
+				{
+					"general": "General"
+				},
+				
+
+				"conditions": 
+				{
+					"compare-result": 
+					{
+						"list-name": "Compare Rolled Result",
+						"display-text": "If result {0} {1}",
+						"translated-name": "Compare Rolled Result",
+						"description": "Compare rolled result.",
+						"params": 
+						{
+							"comparison-options": 
+							{ 
+								"name": "Comparison"
+								,"desc": "How to compare."
+								,"items": 
+								{
+								}
+							},
+							"result": 
+							{ 
+								"name": "Result"
+								,"desc": "Upper die side after it's rolled."
+								,"items": 
+								{
+								}
+							}
+						}
+					}
+				},
+				"actions": 
+				{
+					"roll-die": 
+					{
+						"list-name": "Roll",
+						"display-text": "Roll with chances for sides: {...}",
+						"translated-name": "Roll",
+						"description": "Roll n-sided die with custom chances for every side.",
+						"params": 
+						{
+							"chances": 
+							{ 
+								"name": "Chance for {n} side"
+								,"desc": "The chance (out of 100) that the die rests this side up. The sum of all chances should be 100. Chances will not be normalized to 100 sum."
+								,"items": 
+								{
+								}
+							}
+						}
+					}
+				},
+				"expressions": 
+				{
+					"get-result": 
+					{
+						"list-name": "Get Rolled Result",
+						"translated-name": "Get Rolled Result",
+						"description": "Get the index of the Die side that it rested up.",
+						"params": 
+						{
+						}
+					}
+				}
+
+
+			}
+		}
+	}
+}
